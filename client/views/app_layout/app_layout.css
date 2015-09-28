@@ -515,3 +515,6 @@ text-align: center;
 .mdl-textfield__input[id="item-price"]{
     color: #2c3e50;
 }
+.send-button{
+    margin-top: 30px;
+}
