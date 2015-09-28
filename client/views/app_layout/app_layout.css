@@ -508,7 +508,10 @@ text-align: center;
     color: #fff;
     font-style: underline;
 }
-.mdl-textfield__input{
+.mdl-textfield__input[id="item-name"]{
     z-index: 10;
+    color: #2c3e50;
+}
+.mdl-textfield__input[id="item-price"]{
     color: #2c3e50;
 }
