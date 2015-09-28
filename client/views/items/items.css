@@ -1,0 +1,12 @@
+#added{
+    border-radius: 1.5em;
+    background-color: #2C3E50;
+    z-index: 15;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+    margin: 0 auto;
+    padding: 1em;
+    color: #fff;
+    width: 8em;
+    text-align: center;
+    display: none;
+}

@@ -1,0 +1,62 @@
+<template name="checkout">
+    <div class="container">
+                    <div class="mdl-layout-title">
+                        <h4>Check-out</h4>
+                    </div>
+                    <div class="items order-items">
+                        <table class="items-table">
+                            <thead>
+                                <tr>
+                                    <th>Your Order</th>
+                                    <th>Price</th>
+                                    <th>Delete</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            {{#each items}}
+                                <tr class="item">
+                                    <td class="item--name">{{name}}</td>
+                                    <td class="price">{{price}}</td>
+                                    <td>
+                                        <a href="">
+                                            <button class="mdl-button mdl-js-button mdl-button--icon delete">
+                                                <i class="material-icons">delete</i>
+                                            </button>
+                                        </a>
+                                    </td>
+                                </tr>
+                            {{/each}}
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="checkout-options mdl-card__supporting-text">
+                        <div class="inner">
+                            <p class="mdl-typography--title" id="checkout-price">Your bill:
+                                <span class="price enough" >{{total}}Dh </span>
+                            </p>
+                            {{#if enough}}
+                            <div class="btns">
+                                <a href="/items" class="cancel">
+                                    <button class="mdl-button mdl-js-button mdl-button--icon btn-white" >
+                                        <i class="material-icons">close</i>
+                                    </button>
+                                </a>
+                                <a href="/" class="confirm">
+                                    <button class="mdl-button mdl-js-button mdl-button--icon btn-white">
+                                        <i class="material-icons">check</i>
+                                    </button>
+                                </a>
+                            </div>
+                            {{else}}
+                            <div class="btns">
+                                <a href="/items" class="cancel">
+                                    <button class="mdl-button mdl-js-button mdl-button--icon btn-white ">
+                                        <i class="material-icons">close</i>
+                                    </button>
+                                </a>
+                            </div>
+                            {{/if}}
+                        </div>
+                    </div>
+                </div>
+</template>

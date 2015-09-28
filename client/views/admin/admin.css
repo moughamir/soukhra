@@ -1,0 +1,21 @@
+#new-item>input{
+    border: none;
+}
+#new-item .mdl-textfield__label{
+    color: #2C3E50;
+}
+#new-item .mdl-textfield{
+    display: block;
+}
+#new-item .mdl-card__actions{
+    width: 25%;
+}
+#new-item  input[type="text"]{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #ddd;
+}
+#new-item .mdl-button--raised{
+    background-color: #2C3E50;
+}

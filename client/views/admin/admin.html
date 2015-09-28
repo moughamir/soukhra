@@ -1,0 +1,40 @@
+<template name='admin'>
+    <div class="containerSec">
+        <div class="actualContainer">
+            <form action="" accept-charset="utf-8" id="new-item">
+                <div class="mdl-textfield mdl-js-textfield">
+                    <input class="mdl-textfield__input" type="text" id="item-name" />
+                    <label class="mdl-textfield__label" for="item-name">Name</label>
+                </div>
+                
+                <div class="mdl-textfield mdl-js-textfield">
+                     <label for="groceries" class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect">
+                      <input type="checkbox" id="groceries" class="mdl-checkbox__input" />
+                      <span class="mdl-checkbox__label item-category">Groceries</span>
+                    </label>
+                    <label for="dryCleaning" class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect">
+                      <input type="checkbox" id="dryCleaning" class="mdl-checkbox__input" />
+                      <span class="mdl-checkbox__label item-category">Dry cleaning</span>
+                    </label>
+                    <label for="food" class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect">
+                      <input type="checkbox" id="food" class="mdl-checkbox__input" />
+                      <span class="mdl-checkbox__label item-category">Food</span>
+                    </label>
+                    <label for="special-item" class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect">
+                      <input type="checkbox" id="special-item" class="mdl-checkbox__input" />
+                      <span class="mdl-checkbox__label item-category">Special</span>
+                    </label>  
+                </div>
+                
+                <div class="mdl-textfield mdl-js-textfield">
+                    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="item-price" />
+                    <label class="mdl-textfield__label" for="item-price">Price...</label>
+                    <span class="mdl-textfield__error">Input is not a number!</span>
+                </div>
+                <div class="mdl-card__actions  center send-button">
+                    <button id="add-item" class="btn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect login">Add</button>
+                </div>
+             </form>
+        </div>
+    </div>
+</template>

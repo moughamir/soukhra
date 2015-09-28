@@ -1,0 +1,41 @@
+<template name="login">
+            <form action="/main.html" accept-charset="utf-8" id="loginForm">
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label mdl-cell mdl-cell--12-col">
+                            <label class="mdl-textfield_label" for="username">Email</label>
+                            <input type="text" class="mdl-textfield__input email" name="email" id="email" />
+                            <span class="mdl-textfield__error">No User</span>
+                        </div>
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label mdl-cell mdl-cell--12-col">
+                            <label class="mdl-textfield_label" for="password">Password</label>
+                            <input type="password" class="mdl-textfield__input password" name="password" id="password" />
+                            <span class="mdl-textfield__error">Wrong Pass</span>
+                        </div>
+                        <div class="mdl-card__actions mdl-card--border center send-button">
+                                <button class="btn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect login">Login</button>
+                        </div>
+                        
+                    </form>
+                    <div class="mdl-card__actions mdl-card--border center send-button ">
+                                <a href="/signup" class="btn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect signup">Sign Up</a>
+                    </div>
+                    <hr>
+                    <div class="mdl-grid oAuth">
+                        <div class="mdl-cell mdl-cell--3-col">
+                            <a href="#">
+                                <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+                                    <i class="fa fa-google fa-x"></i>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="mdl-cell mdl-cell--3-col middle">
+                            <p class="or">OR</p>
+                        </div>
+                        <div class="mdl-cell mdl-cell--3-col">
+                            <a href="#">
+                                <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+                                    <i class="fa fa-facebook fa-x"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+</template>

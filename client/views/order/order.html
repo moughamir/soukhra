@@ -1,0 +1,32 @@
+<template name="order">
+    <div class="containerSec">
+        <div class="actualContainer">
+            <table class="mdl-data-table mdl-js-data-table mdl-data-table mdl-shadow--2dp">
+              <thead>
+                <tr>
+                  <th class="mdl-data-table__cell--non-numeric">Info</th>
+                  <th>Value</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="mdl-data-table__cell--non-numeric">Total</td>
+                  <td>{{total}}</td>
+                </tr>
+                <tr>
+                  <td class="mdl-data-table__cell--non-numeric">Category:</td>
+                  <td>{{category}}</td>
+                </tr>
+                <tr>
+                  <td class="mdl-data-table__cell--non-numeric">Time:</td>
+                  <td>{{time}}</td>
+                </tr>
+                <tr>
+                  <td class="mdl-data-table__cell--non-numeric">Statuts:</td>
+                  <td>{{status}}</td>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+    </div>
+</template>

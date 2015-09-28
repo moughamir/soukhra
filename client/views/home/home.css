@@ -1,0 +1,45 @@
+    /*fonts*/
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+.content{
+    top: 10%;
+}
+.content > .table-view:first-child{
+    margin: 0;
+}
+.table-view{
+    height: 100%;
+    margin: 20%;
+    
+}
+.table-view-cell{
+    text-align: center;
+    display: table;
+    width: 100%;
+    height:25%;
+    background-color: #fff;
+}
+.table-view-cell-content{
+    vertical-align: middle;
+    display: table-cell;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.media-body{
+    color: #00aeef;
+}
+.media-body p{
+    margin: 2px;
+}
+.table-view .media, .table-view .media-body{
+    overflow: visible;
+}
+/*icons*/
+.navigate-left:after, .navigate-right:after, .push-left:after, .push-right:after{
+    color: #00aeef;
+}
+.white-icon{
+    color: #fff;
+}

@@ -1,0 +1,36 @@
+<template name="profile">
+    <div class="container">
+                    <div class="frame">
+                        <span class="name"><i class="fa fa-user fa-2x"></i>Name: </span>
+                        <p>Mohamed Aalabou</p>
+                    </div>
+                    <div class="frame">
+                        <span class="phone"><i class="fa fa-phone fa-2x"></i>Phone: </span>
+                        <p>{{phone}}</p>
+                    </div>
+                    <div class="frame">
+                        <span class="credits"><i class="fa fa-usd fa-2x"></i>Credit: </span>
+                        <p>{{credit}} DH</p>
+                    </div>
+                    <div class="frame">
+                        <span class="location"><i class="fa fa-map-marker fa-2x"></i>Locations</span>
+                        <br>
+                        <ul>
+                            <li class="loc home-loc">
+                                <i class="material-icons">add</i>
+                            </li>
+                            <li class="loc work-loc">
+                                <i class="material-icons">add</i>
+                            </li>
+                            <li class="loc add-loc">
+                                <i class="material-icons">add</i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="/">
+                    <button class="back mdl-button mdl-js-button">
+                        <i class="material-icons">arrow_back</i>Back
+                    </button>
+                </a>
+</template>

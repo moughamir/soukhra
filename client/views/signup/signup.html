@@ -1,0 +1,47 @@
+<template name="signup">
+    <form action="/main.html" accept-charset="utf-8" id="signup">
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label mdl-cell mdl-cell--12-col">
+                            <label class="mdl-textfield_label" for="signupEmail">Email</label>
+                            <input type="text" class="mdl-textfield__input signupEmail" name="signupEmail" id="signupEmail" />
+                            <span class="mdl-textfield__error">Write a valid email address</span>
+                        </div>
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label mdl-cell mdl-cell--12-col">
+                            <label class="mdl-textfield_label" for="signupUsername">Username</label>
+                            <input type="text" class="mdl-textfield__input signupUsername" name="signupUsername" id="signupUsername" />
+                            <span class="mdl-textfield__error" id="emailErr">Write a valid username</span>
+                        </div>
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label mdl-cell mdl-cell--12-col">
+                            <label class="mdl-textfield_label" for="signupPassword">Password</label>
+                            <input type="password" class="mdl-textfield__input signupPassword" name="signupPassword" id="signupPassword" />
+                            <span class="mdl-textfield__error">Write a valid password</span>
+                        </div>
+                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label mdl-cell mdl-cell--12-col">
+                            <label class="mdl-textfield_label" for="signupCPassword">Confirm Password</label>
+                            <input type="password" class="mdl-textfield__input signupCPassword" name="signupCPassword" id="signupCPassword" />
+                            <span class="mdl-textfield__error" id="matchErr">Passwords don't match</span>
+                        </div>
+                        <div class="mdl-card__actions mdl-card--border center send-button ">
+                                <button class="btn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect signup">Sign Up</button>
+                        </div> 
+    </form>
+                    <hr>
+                    <div class="mdl-grid oAuth">
+                        <div class="mdl-cell mdl-cell--3-col">
+                            <a href="#">
+                                <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+                                    <i class="fa fa-google fa-x"></i>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="mdl-cell mdl-cell--3-col middle">
+                            <p class="or">OR</p>
+                        </div>
+                        <div class="mdl-cell mdl-cell--3-col">
+                            <a href="#">
+                                <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+                                    <i class="fa fa-facebook fa-x"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+</template>

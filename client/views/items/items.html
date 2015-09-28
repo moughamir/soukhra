@@ -1,0 +1,57 @@
+<template name="items">
+    <div class="container">
+                    <div class="mdl-layout-title">
+                        <h4>Select Items:</h4></div>
+                    <li hidden>
+                        <div class="item--name">Some Item to Buy 2</div>
+                        <span class="price">25.00 Dh</span>
+                        <i class="material-icons">add</i>
+                    </li>
+                    <div class="items">
+                        <table class="items-table">
+                            <thead>
+                                <tr>
+                                    <th>Item</th>
+                                    <th>Price</th>
+                                    <th>Add</th>
+                                    <th>Delete</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {{#each items}}
+                                <tr class="item">
+                                        <td class="item--name" name="name">{{name}}</td>
+                                        <td class="price" name="price">{{price}}Dh</td>
+                                        <td>
+                                            <a href="">
+                                                <button class="mdl-button mdl-js-button mdl-button--icon button" id="add-button">
+                                                <i class="material-icons">add</i>
+                                                </button>
+                                            </a>
+                                        </td>
+                                        {{# if admin}}
+                                            <td>
+                                                <a href="">
+                                                    <button class="mdl-button mdl-js-button mdl-button--icon " id="delete-button">
+                                                    <i class="material-icons">delete</i>
+                                                    </button>
+                                                </a>
+                                            </td> 
+                                        {{/if}}
+                                </tr>
+                                {{/each}}
+                            </tbody>
+                        </table>
+                        
+                    </div>
+                <a href="/checkout">
+                    <button class="mdl-button mdl-js-button next">
+                        Next<i class="material-icons">arrow_forward</i>
+                    </button>
+                </a>    
+                <div id="added">
+                    Added!
+                </div>
+        </div>
+                
+</template>

@@ -1,0 +1,35 @@
+<template name="action">
+    {{#if initiated}}
+    <a href="" class="anchor">
+        <a href="/order/{{this._id}}">
+            <button class="mdl-button mdl-js-button mdl-button--fab main-selector current-order">
+                <i class="fa fa-spinner fa-pulse white-icon"></i>
+            </button>
+            <span>Current Order {{delTime}}</span>
+        </a>
+        <span class="forAdmin"><i class="fa fa-check"></i>Validate</span>
+    </a>
+    {{else}}
+        {{#if waiting}}
+            <a href="" class="anchor">
+                <a href="/order/{{this._id}}">
+                    <button class="mdl-button mdl-js-button mdl-button--fab main-selector validation-order">
+                        <i class="fa fa-clock-o fa-lg white-icon"></i>
+                    </button>
+                    <span>{{delTime}}</span>
+                </a>
+                <span class="forAdmin"><i class="fa fa-check"></i>Done</span>
+            </a>
+        {{else}}
+            <a href="" class="anchor">
+                <a href="/order/{{this._id}}">
+                    <button class="mdl-button mdl-js-button mdl-button--fab main-selector order-done">
+                        <i class="fa fa-check fa-lg white-icon"></i>
+                    </button>
+                    <span>Order Done</span>
+                </a>
+                <span class="forAdmin"><i class="fa fa-check"></i>Delete</span>
+            </a>
+        {{/if}}
+    {{/if}}
+</template>

@@ -1,0 +1,15 @@
+<template name="home">
+ <div class="main-container">
+                    <div class="inner-content">
+                        <a href="/categories" class="anchor" id="add-order">
+                            <button class="mdl-button mdl-js-button mdl-button--fab main-selector new-order">
+                                    <i class="fa fa-plus fa-lg white-icon"></i>
+                            </button>
+                            <span>Pass New Order</span>
+                        </a>
+                        {{#each orders}}
+                            {{>action}}
+                        {{/each}}
+                    </div>
+                </div>
+</template>

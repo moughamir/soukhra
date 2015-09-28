@@ -1,0 +1,514 @@
+* {
+    font-family: Roboto;
+}
+
+.mdl-card {
+    width: 100vw;
+    height: 100vh;
+    border: none;
+    border-radius: 0 !important;
+}
+
+.mdl-layout__header {
+    z-index: 9;
+}
+
+.mdl-navigation__link {
+    font-family: Roboto;
+}
+
+.mdl-card__title {
+    color: #fff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 27px;
+}
+
+.mdl-card__supporting-text {
+    margin: auto;
+    padding-bottom: 66px;
+    font-size: 11px;
+    /*overflow: scroll;*/
+}
+
+
+.mdl-cell--3-col {
+    width: auto !important;
+}
+
+.btn {
+    width: 80%;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.elmnt-center {
+    margin: auto;
+    background: #2c3e50;
+}
+
+.oAuth {
+    text-align: center;
+    padding: 0;
+    width: 250px;
+}
+
+.mdl-cell {
+    margin: 0;
+}
+
+.middle {
+    margin: auto;
+}
+
+.or {
+    font-size: 2em;
+    letter-spacing: 0px;
+    color: white;
+}
+
+.mdl-button--fab {
+    height: 70px;
+    min-width: 70px;
+}
+
+.mdl-button--fab.mdl-button--colored {
+    background: #FFFCFD none repeat scroll 0% 0%;
+    color: #2C3E50;
+}
+
+.mdl-button--fab.mdl-button--colored:hover {
+    background-color: #99a4ae;
+}
+
+#logo {
+    width: 50%;
+    margin: auto;
+    fill: #ffffff;
+    fill-opacity: 1;
+    fill-rule: nonzero;
+    stroke: none;
+    stroke-opacity: 1;
+}
+
+
+/** Form */
+
+.mdl-textfield_label {
+    color: rgb(255, 255, 255);
+}
+
+.mdl-textfield {
+    padding: 4px 0;
+}
+
+.mdl-textfield__input {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    border-color: -moz-use-text-color -moz-use-text-color rgba(255, 255, 255, 0.51);
+}
+
+hr {
+    border-color: -moz-use-text-color -moz-use-text-color rgba(0, 0, 0, 0.12);
+}
+
+
+/**Layout**/
+
+.mdl-layout__drawer {
+    border-right: 1px solid #229B9B;
+    background: #00b5b5 none repeat scroll 0% 0%;
+}
+
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+    color: #FFFFFF;
+}
+
+.mdl-navigation__link>i {
+    margin-right: 20px;
+}
+
+.mdl-layout__header {
+    background-color: #2c3e50;
+}
+
+.mdl-layout-icon {
+    background: white none repeat scroll 0% 0%;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 1px 1.5px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.24);
+    width: 80px;
+    margin: auto;
+    height: 80px;
+}
+
+.togo {
+    display: block;
+    fill: #2C3E50;
+    fill-opacity: 1;
+    fill-rule: nonzero;
+    stroke: none;
+    stroke-opacity: 1;
+    margin: auto;
+    width: 85%;
+    height: 100%;
+}
+
+.mdl-mini-footer {
+    background-color: #2C3E50;
+    min-height: 56px;
+    padding: 0px;
+    z-index: 9;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+}
+
+.user {
+    width: 67px;
+    bottom: 32px;
+    left: 16px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.85);
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 100%;
+}
+
+.credit::before {
+    content: "Credit : ";
+}
+
+.become {
+    bottom: 50px;
+    right: 24px;
+    position: absolute;
+    min-width: 36px;
+    min-height: 36px;
+    border-radius: 50%;
+    height: 36px;
+    width: 36px;
+    background: #99a4ae !important;
+}
+.bacome-link{
+    text-decoration: none !important;
+}
+
+.become-link::before {
+
+    content: "Become a Carrier";
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+    position: absolute;
+    right: 3px;
+    bottom: 29px;
+    font-size: small;
+
+}
+
+.become > .material-icons {
+    top: 7px;
+    transform: inherit;
+    width: 24px;
+    left: 6px;
+    color: #fff;
+}
+
+.oz-info {
+    left: 88px;
+    position: absolute;
+    bottom: 14px;
+}
+
+.oz-info > .name {
+    font-weight: bold;
+    color: white;
+    font-family: Roboto;
+}
+
+.credit {
+    font-family: Roboto;
+}
+
+.frame {
+    /*border: 1px solid #00b5b5;*/
+    padding: 40px 10px 0px 25px;
+}
+
+.frame:nth-child(1) {
+    margin-top: 30px;
+}
+
+.frame>ul {
+    margin: auto;
+    text-align: center;
+    padding: 0;
+}
+
+.frame > p {
+    display: inline;
+    padding: 20px;
+}
+
+.loc {
+    background: #00b5b5 none repeat scroll 0% 0%;
+    border-radius: 50%;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+}
+
+.loc > .material-icons {
+    top: -3px;
+    position: relative;
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    line-height: 50px;
+}
+
+span > .fa {
+    color: rgb(44, 62, 80);
+    padding-right: 16px;
+}
+
+.back {
+    bottom: 105px;
+    position: absolute;
+    left: 14px;
+    background: #FFF none repeat scroll 0px 0px;
+}
+
+.next {
+    bottom: 105px;
+    position: absolute;
+    right: 5em;
+    background: #FFF none repeat scroll 0px 0px;
+}
+
+.loc--z {
+    background: #2c3e50 none repeat scroll 0% 0%;
+    width: 45px;
+    height: 45px;
+}
+
+.loc--z > .material-icons {
+    top: 0 !important;
+    right: 0 !important;
+}
+
+.select-box {
+    text-align: center;
+    padding: 0;
+}
+
+.items {
+    height: 60vh;
+    position: relative;
+    padding: 5px;
+    margin: 0px;
+    overflow: scroll;
+}
+.items> td{
+    margin: 5px;
+}
+.items-table {
+    margin: 0.5em 0px 0.75em;
+    width: 100%;
+    text-align: center;
+    font-size: 1.15em;
+    line-height: 1.5;
+    font-family: Roboto;
+}
+
+
+.item--name {
+    color: #FF9000;
+    font-size: 20px;
+    font-family: Roboto;
+    border-right: 1px solid #99A4AE;
+    width: 20%;
+}
+.price{
+    text-align: center;
+    width: 20%;
+    
+}
+
+.quantity> input {
+    border: 3px solid #2C3E50;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.button {
+    color: #2C3E50;
+}
+
+.btn-white {
+    color: white;
+}
+
+.btns {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.btns a:first-of-type {
+    float: left;
+}
+
+.btns a {
+    text-decoration: none;
+}
+
+.btns a:last-of-type {
+    float: right;
+}
+
+.btns .cancel:after {
+    content: "Cancel";
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.btns .confirm:after {
+    content: "Confirm";
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.total {
+    text-transform: uppercase;
+}
+
+.checkout_total {
+    color: #2C3E50;
+    padding-left: 10px;
+    text-transform: none;
+}
+.container > .mdl-layout-title {
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    margin-top: -25px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.74);
+}
+
+.checkout-options {
+    width: 65%;
+    background: #2C3E50 none repeat scroll 0% 0%;
+    margin: auto;
+    padding: 41px;
+}
+
+.inner {
+    color: #FFF;
+    text-align: center;
+    margin: auto;
+}
+
+.order-items {
+    height: 45vh;
+}
+
+.main-selector {
+    height: 90px;
+    min-width: 90px;
+    margin-top: 10px;
+}
+
+.anchor {
+padding: 10px;
+display: inline-block;
+text-decoration: none;
+text-align: center;
+}
+.anchor:last-of-type{
+    
+}
+.anchor > span {
+    display: block;
+    text-align: center;
+}
+
+.new-order + span {
+    color: #e74c3c;
+    display: block;
+}
+
+.new-order {
+    background-color: #e74c3c;
+}
+
+.current-order {
+    background-color: #eee657;
+}
+
+.current-order + span {
+    color: #eee657;
+    display: block;
+}
+
+.validation-order {
+    background-color: #00b5b5;
+}
+
+.validation-order + span {
+    color: #00b5b5;
+    display: block;
+}
+
+.order-done {
+    background-color: #2cc990;
+}
+
+.order-done + span {
+    color: #2cc990;
+    display: block;
+}
+
+.main-container {
+    padding-top: 22px;
+    margin: auto;
+    display: table;
+}
+.inner-content{
+    display: flex;
+    flex-flow: row wrap;
+}
+.containerSec{
+	display: table;
+	height: 500px;
+	overflow: scroll;
+	margin: 0 auto;
+}
+.actualContainer{
+	display: table-cell;
+	vertical-align: middle;
+}
+.signup.mdl-button--raised{
+    background-color: #fff;
+    color: #2c3e50;
+}
+#signup .mdl-cell {
+     margin: 10px;
+}
+#signup .mdl-textfield__error{
+    color: #fff;
+    font-style: underline;
+}
+.mdl-textfield__input{
+    z-index: 10;
+    color: #2c3e50;
+}

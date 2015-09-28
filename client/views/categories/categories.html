@@ -1,0 +1,26 @@
+<template name="categories">
+    <div class="containerSec">
+        <div class="actualContainer">
+            <h4>Choose a category:</h4>
+            <ul class="select-box">
+                <a href="/items" class="mdl-navigation__link groceries"><li class="loc loc--z"><i class="fa fa-shopping-cart material-icons"></i><span class="catTitle">Order Done</span></li></a>
+                <a href="/items" class="mdl-navigation__link food"><li class="loc loc--z"><i class="fa fa-cutlery material-icons"></i><span class="catTitle">Order Done</span></li></a>
+                <a href="/items" class="mdl-navigation__link dryCleaning"><li class="loc loc--z"><i class="fa fa-archive material-icons"></i><span class="catTitle">Order Done</span></li></a>
+                <a href="" class="mdl-navigation__link special">
+                    <li class="loc loc--z">
+                        <i class="fa fa-star material-icons" id="catSpecial" ></i>
+                        <span class="catTitle">Order Done</span>
+                        <div class="mdl-tooltip mdl-tooltip--large" for="catSpecial">
+                            Not Available
+                        </div>
+                    </li>
+                </a>
+            </ul>
+            <a href="/">
+                    <button class="back mdl-button mdl-js-button">
+                        <i class="material-icons">arrow_back</i>Back
+                    </button>
+            </a>
+        </div>
+    </div>
+</template>
