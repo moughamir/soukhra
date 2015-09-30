@@ -1,2 +1,3 @@
 export ROOT_URL=http://umkke36a347c.moughamir.koding.io:3000/
 export MONGO_URL=mongodb://soukhra:soukhra@ds051543.mongolab.com:51543/soukhra
+export MAIL_URL='smtp://omnizya:o7hSYqslp08S@gmail.com:445/
